@@ -1,0 +1,1 @@
+Jwt based on [this post](https://inezpre5.wordpress.com/2019/04/15/jwt-con-spring-boot-mysql-y-angular-7-capitulo-1-presentacion-del-proyecto/)

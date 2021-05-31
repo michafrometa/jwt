@@ -1,0 +1,24 @@
+spring:
+
+  main:
+    allow-bean-definition-overriding: true
+
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+  h2:
+    console:
+      enabled: true
+
+  datasource:
+    url: jdbc:h2:file:./target/h2db/db/inexpre5jwt;DB_CLOSE_DELAY=-1
+    driverClassName: org.h2.Driver
+    username: jwt
+    password:
+
+# values
+jwt:
+  secret: secret
+  expiration: 36000
